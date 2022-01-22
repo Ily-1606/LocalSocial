@@ -1,0 +1,146 @@
+.user_room {
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.main_chat {
+    min-height: calc(100% - 130px);
+    max-height: calc(100% - 130px);
+    height: calc(100% - 130px);
+}
+
+body {
+    min-height: 100%;
+}
+
+.frame_chat {
+    position: relative;
+    min-height: 100%;
+    overflow: auto;
+}
+
+.input_chat {
+    position: absolute;
+    bottom: 0px;
+}
+
+.submit_form .input_s {
+    border: 0px !important;
+}
+
+.like {
+    color: #ce3232;
+}
+
+.message_list {
+    width: 100%;
+    min-height: calc(100% - 110px);
+    max-height: calc(100% - 110px);
+    overflow: auto;
+
+}
+
+.badged_file {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+.message_content {
+    background: -webkit-linear-gradient(to right, #117a8b, #17a2b8);
+    background: linear-gradient(to right, #117a8b, #17a2b8);
+    padding: 10px;
+}
+
+.message_outer {
+    color: #FFFFFF;
+    margin-bottom: 5px;
+    max-width: 50%;
+}
+
+.media-area>img {
+    max-height: 300px;
+}
+
+.frame_list_user {
+    position: relative;
+    min-height: 100%;
+}
+
+.list_user, .list_recent {
+    width: 100%;
+    min-height: calc(100% - 140px);
+    position: relative;
+}
+
+.user_setting {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.center_text_absolute {
+    color: #696969;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.room_active {
+    background-color: #e9ecef;
+}
+
+.add_group {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+#show_list_user {
+    width: 100%;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.reaction-area,
+.media-area {
+    margin-bottom: 10px;
+}
+.message .trash{
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.message .trash>img{
+    width: 25px;
+    height: 25px;
+}
+.message:hover .trash{
+    opacity: 1;
+}
+.deleted_ms{
+    font-weight: bold;
+    font-size: 80%;
+    font-style: italic;
+}
+.active_list.active{
+    border-color: #00f260!important;
+    color: #00f260!important;
+}
+.tab-pane {
+    display: none;
+}
+.tab-pane.active {
+    display: block;
+}
+.max_height_500{
+    max-height: 500px;
+    overflow: auto;
+}
